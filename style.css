@@ -1,0 +1,786 @@
+#firstdiv{
+    border-style: solid;
+    border-width: 5px;
+    border-color: red blue;
+    border-radius: 10%;
+    width: 300px;
+
+}
+
+#insert{
+    border: 2px solid blue;
+    padding: 60px 20px 50px 100px;
+    
+}
+
+.button{
+    padding-left: 50%;
+
+}
+.buttons{
+    padding: 10px 30px 10px 30px;
+    background-color: aquamarine;
+    margin-left: 550px;
+}
+
+
+.firstdiv{
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+.seceonddiv{
+    border: 2px solid green;
+    background-color: aqua;
+    width: 200px;
+    margin: auto;
+}
+.thirddiv{
+    border: 2px solid blue;
+}
+
+
+
+
+.borders{
+    border: 3px solid red;
+}
+.seceond{
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 50px;
+    margin: 50px auto;
+
+}
+
+
+.lorems{
+    border: 2px solid red;
+
+    margin: 50px;
+    padding: 20px;
+
+    outline-width: 2px;
+    outline-color: green;
+    outline-style: solid;
+    outline-offset: 3px;
+}
+
+.boxmodel{
+   background-color: aqua;
+   width: 300px;
+   padding: 30px;
+   border: 5px solid red;
+   margin: 40px;
+
+
+}
+
+
+
+.div-1{
+    background-color: chocolate;
+    width: 500px;
+    height: 200px;
+    border: 10px solid red;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.div-2{
+    background-color: blueviolet;
+    width: 500px;
+    height: 200px;
+}
+
+.text{
+    border: 2px solid red;
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 10px;
+
+    
+
+}
+img{
+    width: 150px;
+    border: 2px solid blue;
+}
+
+.bangladesh{
+    border: 3px solid red;
+    width: 200px;
+    writing-mode: vertical-lr;
+}
+a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    transition: 2s;
+    background-color:red;
+}
+a:visited{
+    color: white;
+    
+}
+a:hover{
+    color: white;
+    background-color: green;
+    transition: 2s;
+}
+
+/* @font-face{
+    font-family: fontstyle;
+    src: url('font/Sacramento-Regular.ttf');
+} */
+#box{
+    width: 600px;
+    border: 3px solid red;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+#shadow{
+    border: 2px solid blue;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: aqua;
+
+    box-shadow: 10px 10px 2px 3px aqua;
+}
+
+#color-box{
+    background-image: url('image/android-doodle-with-umbrella-4k-nz.jpg');
+    width: 700px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#color-box h1 {
+    background-color: aqua;
+    color: blue;
+    padding: 50px 0px;
+    text-align: center;
+   
+
+}
+#color-box h1:hover{
+    opacity: 0.1;
+}
+
+#kutta{
+    filter: grayscale(90%);
+    width: 700px;
+    height: 550px;
+}
+
+#boxs{
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    color: white;
+    background: linear-gradient(red, green)
+}
+#boxs h1 {
+    text-align: center;
+    font-size: 40px;
+}
+#boxs p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#boxess{
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    color: white;
+    background: linear-gradient(red, green);
+
+    overflow: auto;
+
+    resize: both;
+}
+
+/* ul{
+    list-style-type: '☛';
+    line-height: 25px;
+} */
+
+
+
+table{
+    border: 2px solid black;
+    border-collapse: separate;
+    border-spacing: 20px;
+    empty-cells: hide;
+}
+th{
+    border: 2px solid black;
+    text-align: center;
+    background-color: aquamarine;
+}
+td{
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
+}
+caption{
+    caption-side: top;
+    border: 2px solid black;
+}
+
+
+#webpic{
+    border: 2px solid red;
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.morem::first-letter{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.morem::first-line{
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+#pseudo::before{
+    content: url('image/11.png');
+}
+.morem::selection{
+    color: white;
+    background-color: black;
+}
+
+.pagol::placeholder{
+    color: white;
+    font-size: 15px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* li:nth-child(2n+0){
+    color: red;
+} */
+
+#focuss:focus{
+    border: 5px solid red;
+    background-color: green;
+    color: white;
+}
+
+.cheakedd:checked{
+    box-shadow: 0 0 0 3px red;
+}
+
+.firstdivv{
+    border: 2px solid red;
+    height: 50px;
+    width: 50%;
+    display: inline-block;
+}
+.seconddivv{
+    border: 2px solid green;
+    height: 50px;
+    width: 50%;
+    display: inline;
+}
+
+
+.parenttt{
+    width: 520px;
+    border: 2px solid red;
+    margin: 10px auto;
+    padding: 30px;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    display: inline-block;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    /* position: fixed;
+    right: 370px;
+    top: 240px; */
+
+}
+.tree{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+.four{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+}
+.five{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: inline-block;
+}
+.positionnn{
+    background-color: aqua;
+    /* position: sticky;
+    top: 0px; */
+}
+
+
+:root{
+    --initialColor: orange;
+    --buttonColor: green;
+    --textColor: white;
+}
+
+.func{
+    height: 200px;
+    width: 80%;
+    background-color: var(--initialColor);
+    margin-bottom: 20px;
+}
+.buttonn{
+    background-color: var(--buttonColor);
+    color: var(--textColor);
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+.parennt{
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+}
+.boxone{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+.boxtwo{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    z-index: 2;
+
+}
+.boxthree{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    right: 100px;
+    z-index: 1;
+}
+
+
+
+.floatt{
+    float: left;
+    margin-right: 20px;
+}
+
+.bar{
+    background-color: green;
+    list-style: none;
+    overflow: auto;
+    color: white;
+}
+.nevi{
+    float: left;
+    padding: 10px 20px;
+    
+}
+
+.fltimg{
+    width: 200px;
+    float: right;
+}
+.floooat{
+    
+    border: 10px solid red;
+    overflow: auto;
+}
+
+.fltone{
+    width: 400px;
+    border: 2px solid red;
+    float: left;
+}
+.flttwo{
+    width: 400px;
+    border: 2px solid green;
+    float: right;
+}
+.fltthree{
+    width: 100%;
+    border: 2px solid blue;
+    clear: both;
+}
+
+
+.twod{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    transition: 2s;
+}
+.twod:hover{
+    transform: translate(30px, 30px);
+    transform: scale(0.5);
+    transform: rotate(260deg);
+    transform: skew(40deg);
+}
+
+
+
+
+
+.parentthreedone{
+    width: 200px;
+    height: 150px;
+    border: 2px solid red;
+    display: inline-block;
+}
+.childthreedone{
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    transition: 3s;
+    
+}
+.childthreedone:hover{
+    transform: perspective(500px) rotate(45deg);
+}
+
+
+.parentthreedtwo{
+    width: 200px;
+    height: 150px;
+    border: 2px solid red;
+    display: inline-block;
+}
+.childthreedtwo{
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    transition: 3s;
+    
+}
+.childthreedtwo:hover{
+    transform: perspective(500px) rotateX(45deg);
+}
+
+
+.parentthreedthree{
+    width: 200px;
+    height: 150px;
+    border: 2px solid red;
+    display: inline-block;   
+}
+.childthreedthree{
+    width: 200px;
+    height: 150px;
+    background-color: orange;
+    transition: 3s;
+    
+}
+.childthreedthree:hover{
+    transform: perspective(500px) rotateY(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#trn{
+    width: 400px;
+    height: 150px;
+    background-color: green;
+    transition-property: all;
+    transition: 3s;
+}
+#trn:hover{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+
+
+.flexparent{
+    border: 2px solid black;
+    background-color: green;
+    height: 500px;
+    margin-top:20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+    flex-basis: 200px;
+}
+.flexchild{
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    font-size: 30px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+.parentgrid{
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap:30px 20px;
+
+}
+.childgrid{
+    border: 2px solid black;
+    height: 70px;
+    background-color: aquamarine;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#gridone{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.multiple{
+    column-count: 4;
+    text-align: justify;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: red;
+    column-width: 200px;
+}
+/* inshort */
+/* .multiple{
+    column-count: 4;
+    text-align: justify;
+    column-gap: 30px;
+    column-rule: 1px solid black;
+} */
+/* .multihead{
+    column-span: all;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.printed{
+        background-color: aqua;
+        font-size: 20px;
+}
+@media print{
+    printed{
+        background-color: white;
+        font-size: 40px;
+    }
+    pimage{
+        display: none;
+    }
+    pdiv{
+        width: 260px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes forlogo{
+    0%{
+        width: 300px;
+        background-color:green;
+        left: 0px;
+        top: 0px;
+        /* bottom: 0px; */
+    }
+    50%{
+        width: 400px;
+        background-color: orange;
+        top: 200px;
+    }
+    /* 75%{
+        width: 500px;
+        background-color: blue;
+        bottom: 300px;
+    } */
+    100%{
+        width: 500px;
+        background-color: red;
+        left: 300px;
+    }
+}
+.animatins{
+    width: 300px;
+    height: 300px;
+    color: white;
+    background-color: green;
+    /* margin: 50px auto; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+    animation: forlogo;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-fill-mode: ; */
+    /* animation-play-state: running;
+    animation: name duration timing-function delay iteration-count direction fill-mode; */
+    
+
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#facebook{
+    color: #3b5998;
+    
+}
+#youtube{
+    color: #c4302b;
+}
